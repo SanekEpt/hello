@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Городок "Седона"</title>
+  <link rel='stylesheet' href='fonts/fonts.css'>
+  <link rel='stylesheet' href='style.css'>
 </head>
 <body>
   <header class='main-header'>
     <nav class='main-navigation'>
       <a class='main-header-logo'>
-        <img src='header-logo.img' alt='Логотип городка Седона'></img>
+        <img src='img/header-logo.jpg' alt='Логотип городка Седона'>
       </a>
       <ul class='site-navigation'>
         <li><a href="info.html">Информация</a></li>
@@ -19,27 +21,25 @@
     </nav>
   </header>
 <main>
-  <h1 class='main-caption'>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
+  <h1 class='main-caption'>Седона - небольшой городок в Аризоне,<br> заслуживающий большего</h1>
   <p class='attract'>Рассмотрим 5 причин, по которым Седона, чем круче Гранд Каньон</p>
   <section class='features'>
     <ul class='town description-list'>
-      <li class='description-item'>
+      <li class='reason description-item'>
         <h2>Настоящий городок</h2>
         <span>№1</span>
         <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-      </li>
-      <li class='description-item'>
-        <img src='img/town-logo.jpg' alt='Логотип хаты'></img>
+        <img src='img/town-logo1.jpg' alt='Логотип хаты'>
       </li>
       <li class='description-features'>
         <ul class='features-list'>
           <li class='features-item'>
-            <img src='img/mini-house-logo.jpg'></img>
+            <img src='img/mini-house-logo.jpg'>
             <h3>Жилье</h3>
             <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </li>
           <li class='features-item'>
-            <img src='img/mini-burger-logo.jpg'></img>
+            <img src='img/mini-burger-logo.jpg'>
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
           </li>
@@ -52,52 +52,62 @@
       </li>
     </ul>
     <ul class='bridge description-list'>
-      <li class='descrition-item'>
-        <img src='img/bridge-logo.jpg' alt='Логотип моста'></img>
-      </li>
       <li class='description-item'>
+        <img src='img/bridge-logo.jpg' alt='Логотип моста'></img>
         <h2>Там есть мост дьявола</h2>
         <span>№2</span>
         <p> Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </li>
-      <li class='desctiption-features'>
-        <ul class='features-list'>
-          <li class='features-item'>
-            <span>№3</span>
-            <p>Все достопримеча-<br>тельности находятся<br> очень близко</p>
-          </li>
-          <li class='features-item'>
-            <span>№4</span>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </li>
-          <li class='features-item'>
-            <span>№5</span>
-            <p>Большинство едет в гранд каньон и толпится там</p>
-          </li>
-        </ul>
+      <li class='reason reason-item'>
+        <span>№3</span>
+        <p>Все достопримеча-<br>тельности находятся<br> очень близко</p>
+      </li>
+      <li class='reason reason-item'>
+        <span>№4</span>
+        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </li>
+      <li class='reason reason-item'>
+        <span>№5</span>
+        <p>Большинство едет в гранд каньон и толпится там</p>
       </li>
     </ul>
   </section>
   <section class='appointment'>
-    <b>Заинтересовались?</b>
+    <b>Заинтересовались?</b><br>
     <p class='appointment-info'>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-    <p class='appointment-header'>Поиск гостиницы в Седоне</p>
+    <button class='button sneaky-form'>Поиск гостиницы в Седоне</button>
     <form class='appointment-form' method='post'>
     <p>Дата заезда:
-      <input type='date' name='arrival' value='2017-04-24'></input>
+      <input type='date' name='arrival' value='2017-04-24'>
     </p>
     <p>Дата выезда:
-      <input type='date' name='exit' value='2017-06-04'></input>
+      <input type='date' name='exit' value='2017-06-04'>
     </p>
     <p>Взрослые:
-      <input type='number' name='adult' value='2'></input>
+      <input type='number' name='adult' value='2'>
     </p>
     <p>Дети:
-      <input type='number' name='childer' value='0'></input>
+      <input type='number' name='childer' value='0'>
     </p>
-    <button type='sumbit'>Найти</button>
+    <button class='button' type='sumbit'>Найти</button>
   </form>
   </section>
 </main>
+<footer class='main-footer'>
+  <div class='footer-hashtag'>
+  <b>#VisitSedona</b>
+  </div>
+  <div class='footer-social'>
+    <ul>
+      <li><a class='social-button' href='#'>Twitter</a></li>
+      <li><a class='social-button' href='#'>Facebook</a></li>
+      <li><a class='social-button' href='#'>Youtube</a></li>
+    </ul>
+  </div>
+  <div class='footer-copyright'>
+    <b>Website by</b>
+    <a class='footer-href' href='https://htmlacademy.ru'>htmlacademy</a>
+  </div>
+</footer>
 </body>
 </html>

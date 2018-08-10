@@ -1,4 +1,74 @@
-p {
-	font-size: 12px;
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: pt_sansregular ;
+	font-weight: normal;
+	font-size: 14px;
+  line-height: 26px;
+	text-transform: uppercase;
+
+	background-color: white;
 }
 
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.site-navigation,
+.features-item,
+.description-list {
+	list-style: none;
+}
+
+.main-navigation a {
+	color: black;
+}
+
+.main-caption h1 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.description-item {
+	background-color: #81b3d2;
+	position: center;
+	color: white;
+}
+
+.features-item {
+	line-height: 21px;
+	background-color: white;
+	text-align: center;
+}
+
+.reason-item {
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.button {
+	font: inherit;
+	text-align: center;
+}
+
+.sneaky-form .button{
+	width: 568px;
+	height: 100px;
+
+	font-size: 21px;
+	line-height: 26px;
+
+}
+
+.site-navigation a:hover {
+	color: #81b3d2;
+}
