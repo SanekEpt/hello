@@ -32,7 +32,7 @@ a {
 	color: black;
 }
 
-.main-caption h1 {
+.main-caption {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
@@ -108,11 +108,22 @@ a {
 	border: none;
 }
 
+.sneaky-form:hover,
+.sneaky-form:focus {
+	background-color: #604e43;
+}
+
+.sneaky-form:active {
+	color: gray;
+	background-color: #503e33;
+}
+
 .appointment-form {
 	display: none;
 }
 
-.site-navigation a:hover {
+.site-navigation a:hover,
+.site-navigation a:focus {
 	color: #81b3d2;
 }
 .site-navigation a:active {
